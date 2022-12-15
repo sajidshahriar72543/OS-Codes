@@ -21,6 +21,13 @@ for i in range (n):
     bt.append(inp)
     print()
 
+for i in range (n): #sorting the burst time in ascending order
+    for j in range (i+1,n):
+        if bt[i] > bt[j]: # using Bubble sort because python doesn't have any library function for sorting 
+            temp = bt[i] 
+            bt[i] = bt[j] 
+            bt[j] = temp
+
 for i in range (n):
     if i==0: #first process
         top += bt[i] 
@@ -38,7 +45,7 @@ for i in range (n):
     wt.append(temp) #waiting time
 
 print("Turn Around Time Calculated\n Waiting Time Calculated\n")
-
+# wt[0] = 0
 print("PID\tBT\tCT\tTAT\tWT")
 for i in range (n):
     print(str(i+1) + "\t" + str(bt[i]) + "\t" + str(ct[i]) + "\t" + str(tat[i]) + "\t" + str(wt[i]))

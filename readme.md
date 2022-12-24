@@ -12,6 +12,10 @@
 
 ### 3. Priority Scheduling
 
+<a href="https://github.com/sajidshahriar72543/OS-Codes/blob/main/PriorityScheduling.py" target="_blank">**PYTHON**<a>
+
 ### 4. Round Robin (RR)
+
+<a href="https://github.com/sajidshahriar72543/OS-Codes/blob/main/RoundRobin.py" target="_blank">**PYTHON**</a>
 
 ### 5. Banker's Algorithm

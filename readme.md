@@ -19,3 +19,5 @@
 <a href="https://github.com/sajidshahriar72543/OS-Codes/blob/main/RoundRobin.py" target="_blank">**PYTHON**</a>
 
 ### 5. Banker's Algorithm
+
+  <a href="https://github.com/sajidshahriar72543/OS-Codes/blob/main/BankersAlgorithm.py" target="_blank">**PYTHON**</a>

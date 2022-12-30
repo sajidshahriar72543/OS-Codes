@@ -21,12 +21,7 @@ for i in range (n):
     bt.append(inp)
     print()
 
-for i in range (n): #sorting the burst time in ascending order
-    for j in range (i+1,n):
-        if bt[i] > bt[j]: # using Bubble sort because python doesn't have any library function for sorting 
-            temp = bt[i] 
-            bt[i] = bt[j] 
-            bt[j] = temp
+bt.sort()
 
 for i in range (n):
     if i==0: #first process

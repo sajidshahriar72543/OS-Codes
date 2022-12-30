@@ -19,10 +19,12 @@ for i in range (n):
         top += bt[i] 
         ct.append(top) #completion time
     elif i>0: #other processes
-        if at[i] > top: 
+        if at[i] > top: # if arrival time is greater than completion time
             top = at[i]+bt[i] 
             ct.append(top) #completion time
-
+        else: #if arrival time is less than completion time
+            top += bt[i]
+            ct.append(top)
 print("Arrival Time Calculated\n")
 
 for i in range (n):
